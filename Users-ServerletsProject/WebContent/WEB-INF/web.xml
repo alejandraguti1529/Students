@@ -12,7 +12,7 @@
   
    <context-param>
         <param-name>URL</param-name>
-        <param-value>jdbc:mysql://localhost:3306/db_students</param-value>
+        <param-value>jdbc:mysql://localhost/db_students</param-value>
     </context-param>
  
     <context-param>
@@ -22,7 +22,7 @@
  
     <context-param>
         <param-name>password</param-name>
-        <param-value></param-value>
+        <param-value>1Q2w3e4r.</param-value>
     </context-param>
  
     <servlet>

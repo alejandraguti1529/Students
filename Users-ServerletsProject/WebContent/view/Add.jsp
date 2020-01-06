@@ -27,14 +27,14 @@
             <form action="Controller?action=insert" method="post" enctype="multipart/form-data">
         </c:if>
 			<div class="form-row">
-			   <div id="videoElementMini">
-			    		<img src=".\Naturaleza.jpg" alt="" class="">
-			    </div>
 			    <div class="form-group col-md-6">
 			      <label for="id">ID</label>
-			     <input type="text" name="id" size="5" class="form-control" value="<c:out value='${student.id}' />"/>
+			      <input type="text" name="id" size="5" class="form-control" value="<c:out value='${student.id}' />"/>
 			    </div>
 			    <div class="form-group col-md-6">
+			     	<c:if test="${student != null}">
+              			<img src="Controller?action=view&id=<c:out value='${student.id}'/>" border="1"  width="100" height="100">
+           			</c:if>
 			    	<input type="file" name="photo" class="form-control"/>
 			    </div>
 			    
