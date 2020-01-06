@@ -1,0 +1,18 @@
+<style>
+	#container {
+		margin: 0px auto;
+		width: 500px;
+		height: 375px;
+		border: 10px #333 solid;
+	}
+	#videoElement {
+		width: 500px;
+		height: 375px;
+		background-color: #666;
+	}
+	#videoElementMini {
+		width: 200px;
+		height: 200px;
+		background-color: #e0e0e0;
+	}
+</style>
